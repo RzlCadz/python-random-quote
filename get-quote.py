@@ -1,9 +1,12 @@
+import random
 def primary():
    print("Keep it logically awesome.")
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+   f = open("quotes.txt")
+   rnd=random.randint(0,13)
+   quotes = f.readlines()
+   print(quotes[rnd])
+   f.close()
 
   #print(quotes)
 
